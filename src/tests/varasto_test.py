@@ -26,7 +26,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_uudella_varastolla_virhe_saldo(self):
         self.assertAlmostEqual(
-            Varasto(-1,-1).saldo, 0
+            Varasto(-1, -1).saldo, 0
         )
 
     def test_lisays_lisaa_saldoa(self):
